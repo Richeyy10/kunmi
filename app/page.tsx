@@ -15,7 +15,7 @@ export default function ValentinePage() {
   }, [opened]);
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-green-200">
+    <main className="min-h-screen overflow-x-hidden flex items-center justify-center bg-green-200">
       <audio
         ref={audioRef}
         loop
@@ -131,7 +131,7 @@ export default function ValentinePage() {
           <div className="w-full flex items-center justify-center gap-6">
 
             {/* Letter/Note */}
-            <div className="relative sm:w-96 w-160 sm:h-250 h-250 bg-green-300">
+            <div className="relative sm:w-96 w-160 sm:h-250 h-290 bg-green-300">
               {/* Paper background */}
               <div className="absolute inset-0 bg-yellow-50 rounded-lg shadow-2xl transform -rotate-1 border border-yellow-200" />
               
